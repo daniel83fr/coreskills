@@ -54,116 +54,207 @@ export default function Index() {
       </section>
 
 
+
+
       <section >
         <div className="container mx-auto px-4 pb-8 pt-8">
+
+          <h4 className="text-blueGray-500">
+            <b>Oser entrer en communication</b> <br/> Communiquer avec les adultes et les autres enfants en se faisant comprendre.
+          </h4>
+
           <div className="items-center flex flex-wrap bg-gray-100">
 
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
+            <ul className="list-none mt-6">
 
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  border border-solid px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4 text-left">
-                      Oser entrer en communication.
-                    </th>
-                    <td className="border-t-1 border border-solid  border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Communiquer avec les adultes et les autres enfants en se faisant comprendre.
-                    </td>
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>Participer en répétant seulement (comptines…) </div>
+                </div>
+              </li>
 
-                  </tr>
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>Participer à la tâche langagière en répétant les paroles d’un
+                    pair</div>
+                </div>
+              </li>
 
-                </tbody>
-              </table>
-            </div>
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>Prendre la parole pour répondre à une question</div>
+                </div>
+              </li>
 
-
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
-                <thead>
-                  <tr>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      L’enseignant observe que l’enfant commence à réussir ou réussit
-                      régulièrement à…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Contexte, circonstances,
-                      dispositifs, activités…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Pour les
-                      apprentissages
-                      suivants…
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                      • participer en répétant seulement (comptines…) ;<br />
-                      • participer à la tâche langagière en répétant les paroles d’un
-                      pair ;<br />
-                      • prendre la parole pour répondre à une question ;<br />
-                      • quitter le regard de l’enseignant pour regarder son (ses)<br />
-                      interlocuteur(s) ; parler pour être entendu (force et articulation) ;<br />
-                      • endosser des postures de locuteur/interlocuteur : accepter les<br />
-                      tours de parole, attendre pour prendre la parole ; écouter ses<br />
-                      pairs ;<br />
-                      • prendre en compte son (ses) interlocuteur (s) dans le système<br />
-                      d’énonciation (je, tu, il/elle, vous, nous …) ;<br />
-                      • répéter, insister, transformer, adapter, reformuler son propos<br />
-                      pour être entendu et compris ;<br />
-                      • participer à la régulation de l’avancée du propos du groupe par<br />
-                      des formules comme « 0n l’a déjà dit … » ;<br />
-                      • coopérer en complétant, en ajoutant des éléments, en<br />
-                      s’opposant aux propos de ses pairs ;<br />
-                      • faire usage de son statut de locuteur/interlocuteur à l’intérieur<br />
-                      du groupe par des régulations verbales des prises de paroles<br />
-                      accordées<br />
-                      ex « Tu ne m’as pas laissé terminer ! ». Il marque verbalement la<br />
-                      fin de sa prise de parole: « J’ai fini » « c’est à toi …» ;<br />
-                      • récapituler ce qui vient d’être dit à la demande de l’enseignant ;<br />
-                      • se distancier en comprenant et commençant à faire de l’humour<br />
-                      ex dans le coin dinette : « Tu as vu le bébé sourit (c’est une<br />
-                      poupée)… Non, je rigole ! ».
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      • Conversation<br />
-                      • Compte-rendu<br />
-                      • Nouvelle<br />
-                      • Récit<br />
-                      • Commentaire<br />
-                      • Discussion, débat<br />
-                      • Consigne d’action<br />
-                      • Synthèse et bilan<br />
-                      • …<br />
-                    </td>
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>Quitter le regard de l’enseignant pour regarder son (ses)
+                    interlocuteur(s) ;<br />
+                    Parler pour être entendu (force et articulation)</div>
+                </div>
+              </li>
 
 
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Développer le statut de<br />
-                      locuteur et<br />
-                      d’interlocuteur<br />
-                      Participer à la<br />
-                      c o m m u n a u t é
-                      langagière<br />
-                      Variables importantes à<br />
-                      préciser<br />
-                      Taille du groupe :<br />
-                      relation duelle/ petit<br />
-                      groupe /collectif.<br />
-                      Qualité des<br />
-                      interlocuteurs : adultes<br />
-                      /enfants de la classe /<br />
-                      de l’école/ inconnus<br />
-                      avec ou sans aide de<br />
-                      l’enseignant.<br />
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>Endosser des postures de locuteur/interlocuteur : accepter les
+                    tours de parole, attendre pour prendre la parole <br /> Ecouter ses
+                    pairs</div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>Prendre en compte son (ses) interlocuteur (s) dans le système
+                    d’énonciation (je, tu, il/elle, vous, nous …) </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>Répéter, insister, transformer, adapter, reformuler son propos
+                    pour être entendu et compris </div>
+                </div>
+              </li>
+
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>Participer à la régulation de l’avancée du propos du groupe par
+                    des formules comme « 0n l’a déjà dit … »</div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>Coopérer en complétant, en ajoutant des éléments, en
+                    s’opposant aux propos de ses pairs</div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>Faire usage de son statut de locuteur/interlocuteur à l’intérieur
+                    du groupe par des régulations verbales des prises de paroles
+                    accordées<br />
+                    ex « Tu ne m’as pas laissé terminer ! ». Il marque verbalement la
+                    fin de sa prise de parole: « J’ai fini » « c’est à toi …»</div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>Récapituler ce qui vient d’être dit à la demande de l’enseignant</div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>Se distancier en comprenant et commençant à faire de l’humour<br />
+                    ex dans le coin dinette : « Tu as vu le bébé sourit (c’est une
+                    poupée)… Non, je rigole ! ».</div>
+                </div>
+              </li>
+
+
+
+
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div className="text-blueGray-500">
+
+                    Développer le statut de locuteur et d’interlocuteur<br />
+                    Participer à la communauté langagière<br />
+                    Variables importantes à préciser<br />
+                    - Taille du groupe : relation duelle/ petit groupe /collectif.<br />
+                    - Qualité des interlocuteurs : adultes/ enfants de la classe / de l’école/ inconnus<br />
+                    avec ou sans aide de l’enseignant.</div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div><i><b>Context:</b> Conversation,
+                    Compte-rendu,
+                    Nouvelle,
+                    Récit,
+                    Commentaire,
+                    Discussion, débat,
+                    Consigne d’action,
+                    Synthèse et bilan,
+                    …</i>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+
           </div>
         </div>
       </section>
@@ -1139,272 +1230,272 @@ export default function Index() {
       <section>
         <div className="container mx-auto px-4 pb-8 pt-8">
           <div className="items-center flex flex-wrap bg-gray-100">
-          <div className="block w-full overflow-x-auto">
-            {/* Projects table */}
-            <table className="items-center w-full bg-transparent border-collapse">
+            <div className="block w-full overflow-x-auto">
+              {/* Projects table */}
+              <table className="items-center w-full bg-transparent border-collapse">
 
-              <tbody>
-                <tr>
-                  <th className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4 text-left">
-                    Commencer à produire des<br />
-                    écrits et en découvrir le<br />
-                    fonctionnement.
-                  </th>
-                  <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                    Participer verbalement à la production d’un écrit.<br />
-                    Savoir que l’on n’écrit pas comme on parle.
-                  </td>
+                <tbody>
+                  <tr>
+                    <th className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4 text-left">
+                      Commencer à produire des<br />
+                      écrits et en découvrir le<br />
+                      fonctionnement.
+                    </th>
+                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
+                      Participer verbalement à la production d’un écrit.<br />
+                      Savoir que l’on n’écrit pas comme on parle.
+                    </td>
 
-                </tr>
+                  </tr>
 
-              </tbody>
-            </table>
-          </div>
-
-
-
-          <div className="block w-full overflow-x-auto">
-            {/* Projects table */}
-            <table className="items-center w-full bg-transparent border-collapse">
-              <thead>
-                <tr>
-                  <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                    L’enseignant observe que l’enfant commence à réussir ou réussit
-                    régulièrement à…
-                  </th>
-                  <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                    Contexte, circonstances,<br />
-                    dispositifs, activités…
-                  </th>
-                  <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                    Pour les<br />
-                    apprentissages<br />
-                    suivants…
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                    Pour les apprentissages<br />
-                    suivants…<br />
-                    faire des propositions de …<br />
-                    • fragment de l’information<br />
-                    Ex : « On va parler des papillons » ;<br />
-                    • d’organisation du texte<br />
-                    Ex : « D’abord, on va dire comment ils<br />
-                    sont les papillons et après on va dire<br />
-                    comment ils font des bébés » ;<br />
-                    • évoquant le destinataire : ce qu’il sait,<br />
-                    pense, croit, se demande ; .<br />
-                    • répéter à l’identique l’énoncé à écrire ;<br />
-                    • utiliser des formats syntaxiques simples<br />
-                    pour produire un énoncé qui peut s’écrire<br />
-                    Ex : c’est …, il y a …, etc.<br />
-                    • ralentir son débit pour s’adapter au<br />
-                    rythme de l’écriture en s’approchant du<br />
-                    découpage de la chaîne parlée en mots ;<br />
-                    • formuler ou reformuler son propos pour<br />
-                    respecter les règles de l’écrit : négation<br />
-                    (ne…pas), suppression de reprise<br />
-                    pronominale (le loup, il…) etc. ;<br />
-                    • parler de ce qu’on « ne peut pas dire<br />
-                    quand on écrit »<br />
-                    Ex : « On n’écrit pas i sait… » ;<br />
-                    • choisir le lexique de spécialité utilisé<br />
-                    dans la classe et complexifier l’organisation<br />
-                    syntaxique de son énoncé (compléments,<br />
-                    relatives, conjonctives...) ;<br />
-                    • prendre en compte des phénomènes<br />
-                    textuels de cohérence/cohésion dans le<br />
-                    suivi du propos ;<br />
-                    • demander des relectures ;<br />
-                    • faire des propositions de corrections pour<br />
-                    se rapprocher de la forme écrite (syntaxe,<br />
-                    vocabulaire, concordance des temps) ;<br />
-                    • participer à l’écriture de certains mots.<br />
-                    Ex : demander comment s’écrit le mot<br />
-                    Noël ; faire utiliser les outils de la classe<br />
-                    (affichages, répertoires de mots, textes<br />
-                    de référence…) pour dicter lettre à lettre<br />
-                    quelques mots du texte.<br />
-                    • participer à la gestion de marques<br />
-                    typographiques<br />
-                    Ex : retour à la ligne, retrait, marques de<br />
-                    ponctuation etc.<br />
-                    • utiliser des termes métalinguistiques<br />
-                    (début, fin, phrase, mots, lignes, lettres)<br />
-                    pour participer à la gestion de l’écriture.
-                  </th>
-                  <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                    Détermination du contenu et<br />
-                    construction du canevas : se mettre<br />
-                    d’accord sur ce qu’on veut dire<br />
-                    avec cet écrit.<br />
-                    Situations de production d’écrits :<br />
-                    • Fonctionnels :<br />
-                    correspondances ; écrits de<br />
-                    mémoire de la classe (ex : compterendu, récit de visite) ; écrits<br />
-                    intermédiaires (ex : listes, pensebête, inventaires) ; règles de jeux,<br />
-                    fiches techniques, recettes…<br />
-                    • Fictionnels :<br />
-                    à partir d’albums ou de contes :<br />
-                    écrire un nouvel épisode de<br />
-                    l’histoire en randonnée, une autre<br />
-                    fin « si… » ; une suite possible,<br />
-                    réécrire l’histoire à sa façon ;<br />
-                    écrire une nouvelle histoire en<br />
-                    s’appuyant sur une structure –<br />
-                    matrice- repérée….<br />
-                    Élaboration/ négociation du texte à<br />
-                    écrire et à dicter<br />
-                    • verbaliser le contenu du<br />
-                    message.<br />
-                    • dicter pour le faire écrire ;<br />
-                    • relire pour continuer, enchaîner<br />
-                    • relire pour valider<br />
-                  </td>
+                </tbody>
+              </table>
+            </div>
 
 
-                  <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                    • Poésie :<br />
-                    écrire une suite ; écrire un poème<br />
-                    à la manière de…<br />
-                    Comprendre progressivement ce<br />
-                    qu’est l’écrit :<br />
-                    • ce qui se dit peut s’écrire ;<br />
-                    • on n’écrit pas comme on parle ;<br />
-                    • l’écrit permet toutes les reprises<br />
-                    nécessaires ;<br />
-                    • quand on écrit, on fait attention<br />
-                    à ce que l’on dit et à la façon de<br />
-                    le dire ;<br />
-                    • il ne suffit pas de parler pour<br />
-                    dicter.
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+
+            <div className="block w-full overflow-x-auto">
+              {/* Projects table */}
+              <table className="items-center w-full bg-transparent border-collapse">
+                <thead>
+                  <tr>
+                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
+                      L’enseignant observe que l’enfant commence à réussir ou réussit
+                      régulièrement à…
+                    </th>
+                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
+                      Contexte, circonstances,<br />
+                      dispositifs, activités…
+                    </th>
+                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
+                      Pour les<br />
+                      apprentissages<br />
+                      suivants…
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
+                      Pour les apprentissages<br />
+                      suivants…<br />
+                      faire des propositions de …<br />
+                      • fragment de l’information<br />
+                      Ex : « On va parler des papillons » ;<br />
+                      • d’organisation du texte<br />
+                      Ex : « D’abord, on va dire comment ils<br />
+                      sont les papillons et après on va dire<br />
+                      comment ils font des bébés » ;<br />
+                      • évoquant le destinataire : ce qu’il sait,<br />
+                      pense, croit, se demande ; .<br />
+                      • répéter à l’identique l’énoncé à écrire ;<br />
+                      • utiliser des formats syntaxiques simples<br />
+                      pour produire un énoncé qui peut s’écrire<br />
+                      Ex : c’est …, il y a …, etc.<br />
+                      • ralentir son débit pour s’adapter au<br />
+                      rythme de l’écriture en s’approchant du<br />
+                      découpage de la chaîne parlée en mots ;<br />
+                      • formuler ou reformuler son propos pour<br />
+                      respecter les règles de l’écrit : négation<br />
+                      (ne…pas), suppression de reprise<br />
+                      pronominale (le loup, il…) etc. ;<br />
+                      • parler de ce qu’on « ne peut pas dire<br />
+                      quand on écrit »<br />
+                      Ex : « On n’écrit pas i sait… » ;<br />
+                      • choisir le lexique de spécialité utilisé<br />
+                      dans la classe et complexifier l’organisation<br />
+                      syntaxique de son énoncé (compléments,<br />
+                      relatives, conjonctives...) ;<br />
+                      • prendre en compte des phénomènes<br />
+                      textuels de cohérence/cohésion dans le<br />
+                      suivi du propos ;<br />
+                      • demander des relectures ;<br />
+                      • faire des propositions de corrections pour<br />
+                      se rapprocher de la forme écrite (syntaxe,<br />
+                      vocabulaire, concordance des temps) ;<br />
+                      • participer à l’écriture de certains mots.<br />
+                      Ex : demander comment s’écrit le mot<br />
+                      Noël ; faire utiliser les outils de la classe<br />
+                      (affichages, répertoires de mots, textes<br />
+                      de référence…) pour dicter lettre à lettre<br />
+                      quelques mots du texte.<br />
+                      • participer à la gestion de marques<br />
+                      typographiques<br />
+                      Ex : retour à la ligne, retrait, marques de<br />
+                      ponctuation etc.<br />
+                      • utiliser des termes métalinguistiques<br />
+                      (début, fin, phrase, mots, lignes, lettres)<br />
+                      pour participer à la gestion de l’écriture.
+                    </th>
+                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
+                      Détermination du contenu et<br />
+                      construction du canevas : se mettre<br />
+                      d’accord sur ce qu’on veut dire<br />
+                      avec cet écrit.<br />
+                      Situations de production d’écrits :<br />
+                      • Fonctionnels :<br />
+                      correspondances ; écrits de<br />
+                      mémoire de la classe (ex : compterendu, récit de visite) ; écrits<br />
+                      intermédiaires (ex : listes, pensebête, inventaires) ; règles de jeux,<br />
+                      fiches techniques, recettes…<br />
+                      • Fictionnels :<br />
+                      à partir d’albums ou de contes :<br />
+                      écrire un nouvel épisode de<br />
+                      l’histoire en randonnée, une autre<br />
+                      fin « si… » ; une suite possible,<br />
+                      réécrire l’histoire à sa façon ;<br />
+                      écrire une nouvelle histoire en<br />
+                      s’appuyant sur une structure –<br />
+                      matrice- repérée….<br />
+                      Élaboration/ négociation du texte à<br />
+                      écrire et à dicter<br />
+                      • verbaliser le contenu du<br />
+                      message.<br />
+                      • dicter pour le faire écrire ;<br />
+                      • relire pour continuer, enchaîner<br />
+                      • relire pour valider<br />
+                    </td>
+
+
+                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
+                      • Poésie :<br />
+                      écrire une suite ; écrire un poème<br />
+                      à la manière de…<br />
+                      Comprendre progressivement ce<br />
+                      qu’est l’écrit :<br />
+                      • ce qui se dit peut s’écrire ;<br />
+                      • on n’écrit pas comme on parle ;<br />
+                      • l’écrit permet toutes les reprises<br />
+                      nécessaires ;<br />
+                      • quand on écrit, on fait attention<br />
+                      à ce que l’on dit et à la façon de<br />
+                      le dire ;<br />
+                      • il ne suffit pas de parler pour<br />
+                      dicter.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </section>
 
       <section>
-      <div className="container mx-auto px-4 pb-8 pt-8">
-        <div className="items-center flex flex-wrap bg-gray-100">
-        <div className="block w-full overflow-x-auto">
-            {/* Projects table */}
-            <table className="items-center w-full bg-transparent border-collapse">
+        <div className="container mx-auto px-4 pb-8 pt-8">
+          <div className="items-center flex flex-wrap bg-gray-100">
+            <div className="block w-full overflow-x-auto">
+              {/* Projects table */}
+              <table className="items-center w-full bg-transparent border-collapse">
 
-              <tbody>
-                <tr>
-                  <th className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4 text-left">
-                    Découvrir le principe<br />
-                    alphabétique.
-                  </th>
-                  <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                    Manifester de la curiosité par rapport à l’écrit. Pouvoir redire les mots d’une phrase<br />
-                    écrite après sa lecture par l’adulte, les mots du titre connu d’un livre ou d’un texte<br />
-                    Reconnaître les lettres de l’alphabet et connaître les correspondances entre les<br />
-                    trois manières de les écrire : cursive, script, capitales d’imprimerie.<br />
-                    Copier à l’aide d’un clavier
-                  </td>
+                <tbody>
+                  <tr>
+                    <th className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4 text-left">
+                      Découvrir le principe<br />
+                      alphabétique.
+                    </th>
+                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
+                      Manifester de la curiosité par rapport à l’écrit. Pouvoir redire les mots d’une phrase<br />
+                      écrite après sa lecture par l’adulte, les mots du titre connu d’un livre ou d’un texte<br />
+                      Reconnaître les lettres de l’alphabet et connaître les correspondances entre les<br />
+                      trois manières de les écrire : cursive, script, capitales d’imprimerie.<br />
+                      Copier à l’aide d’un clavier
+                    </td>
 
-                </tr>
+                  </tr>
 
-              </tbody>
-            </table>
+                </tbody>
+              </table>
+            </div>
+
+
+
+            <div className="block w-full overflow-x-auto">
+              {/* Projects table */}
+              <table className="items-center w-full bg-transparent border-collapse">
+                <thead>
+                  <tr>
+                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
+                      L’enseignant observe que l’enfant commence à réussir ou réussit<br />
+                      régulièrement à…
+                    </th>
+                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
+                      Contexte, circonstances,<br />
+                      dispositifs, activités…
+                    </th>
+                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
+                      Pour les<br />
+                      apprentissages<br />
+                      suivants…
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
+                      • différencier dessins, écritures, graphismes,<br />
+                      pictogrammes, symbole et signes ;<br />
+                      • identifier son prénom en prenant des repères visuels<br />
+                      (forme de majuscule, longueur, point sur un I, accent,<br />
+                      graphie particulière comme le X ou le H, dernière lettre,<br />
+                      trait d’union…)<br />
+                      • identifier des mots, en prenant appui par exemple sur :<br />
+                      » la longueur en sachant qu’elle correspond à la longueur<br />
+                      de l’énoncé oral ;<br />
+                      » les lettres et leur ordre puis, en fonction de la lettre, en<br />
+                      grande section, sa valeur sonore.<br />
+                      • faire correspondre les trois écritures en tracé manuscrit<br />
+                      et sur traitement de texte. Passer d’une écriture à une<br />
+                      autre : capitale d’imprimerie, script et cursive<br />
+                      • reconnaître et nommer la majorité des lettres de<br />
+                      l’alphabet<br />
+                      • marquer l’espace entre chaque mot pour écrire un titre,<br />
+                      une phrase… ;<br />
+                      • utiliser le lexique qui permet de nommer les unités de<br />
+                      la langue : mot, lettre, syllabe, son, phrase, texte, ligne,<br />
+                      majuscule ;<br />
+                      • décomposer le mot en syllabes, en isolant la syllabe qu’il<br />
+                      écrit, en énonçant le nom de la lettre et sa valeur sonore.<br />
+                    </th>
+                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
+                      Dans une situation de<br />
+                      - de projet d’écriture<br />
+                      - de repérage dans un écrit<br />
+                      - de jeux<br />
+                      Kim visuels<br />
+                      Kim visuels des lettres<br />
+                      Loto des lettres<br />
+                      Mémory des lettres<br />
+                      Mistigri des lettres<br />
+                      Découverte du prénom caché<br />
+                      Jeu de l’oie des lettres<br />
+                      Lecture et production<br />
+                      d’abécédaires.<br />
+                    </td>
+
+
+                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
+                      Comprendre les<br />
+                      relations entre lettres et<br />
+                      sons et commencer à<br />
+                      mettre en œuvre le<br />
+                      principe alphabétique<br />
+                      pour rendre possibles<br />
+                      les premières écritures<br />
+                      autonomes en fin<br />
+                      d’école maternelle
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
-
-
-
-          <div className="block w-full overflow-x-auto">
-            {/* Projects table */}
-            <table className="items-center w-full bg-transparent border-collapse">
-              <thead>
-                <tr>
-                  <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                    L’enseignant observe que l’enfant commence à réussir ou réussit<br />
-                    régulièrement à…
-                  </th>
-                  <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                    Contexte, circonstances,<br />
-                    dispositifs, activités…
-                  </th>
-                  <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                    Pour les<br />
-                    apprentissages<br />
-                    suivants…
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                    • différencier dessins, écritures, graphismes,<br />
-                    pictogrammes, symbole et signes ;<br />
-                    • identifier son prénom en prenant des repères visuels<br />
-                    (forme de majuscule, longueur, point sur un I, accent,<br />
-                    graphie particulière comme le X ou le H, dernière lettre,<br />
-                    trait d’union…)<br />
-                    • identifier des mots, en prenant appui par exemple sur :<br />
-                    » la longueur en sachant qu’elle correspond à la longueur<br />
-                    de l’énoncé oral ;<br />
-                    » les lettres et leur ordre puis, en fonction de la lettre, en<br />
-                    grande section, sa valeur sonore.<br />
-                    • faire correspondre les trois écritures en tracé manuscrit<br />
-                    et sur traitement de texte. Passer d’une écriture à une<br />
-                    autre : capitale d’imprimerie, script et cursive<br />
-                    • reconnaître et nommer la majorité des lettres de<br />
-                    l’alphabet<br />
-                    • marquer l’espace entre chaque mot pour écrire un titre,<br />
-                    une phrase… ;<br />
-                    • utiliser le lexique qui permet de nommer les unités de<br />
-                    la langue : mot, lettre, syllabe, son, phrase, texte, ligne,<br />
-                    majuscule ;<br />
-                    • décomposer le mot en syllabes, en isolant la syllabe qu’il<br />
-                    écrit, en énonçant le nom de la lettre et sa valeur sonore.<br />
-                  </th>
-                  <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                    Dans une situation de<br />
-                    - de projet d’écriture<br />
-                    - de repérage dans un écrit<br />
-                    - de jeux<br />
-                    Kim visuels<br />
-                    Kim visuels des lettres<br />
-                    Loto des lettres<br />
-                    Mémory des lettres<br />
-                    Mistigri des lettres<br />
-                    Découverte du prénom caché<br />
-                    Jeu de l’oie des lettres<br />
-                    Lecture et production<br />
-                    d’abécédaires.<br />
-                  </td>
-
-
-                  <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                    Comprendre les<br />
-                    relations entre lettres et<br />
-                    sons et commencer à<br />
-                    mettre en œuvre le<br />
-                    principe alphabétique<br />
-                    pour rendre possibles<br />
-                    les premières écritures<br />
-                    autonomes en fin<br />
-                    d’école maternelle
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          </div>
-          </div>
+        </div>
       </section>
-    
-    <section>
-      <div className="container mx-auto px-4 pb-8 pt-8" id="langage">
-        <div className="items-center flex flex-wrap bg-gray-100">
+
+      <section>
+        <div className="container mx-auto px-4 pb-8 pt-8" id="langage">
+          <div className="items-center flex flex-wrap bg-gray-100">
 
 
 
@@ -1419,7 +1510,6 @@ export default function Index() {
 
 
 
-       
 
 
 
@@ -1427,166 +1517,171 @@ export default function Index() {
 
 
 
-          <br />
-          <br />
+
+            <br />
+            <br />
 
 
-          
-          <br /><br />
-          <div className="block w-full overflow-x-auto">
-            {/* Projects table */}
-            <table className="items-center w-full bg-transparent border-collapse">
 
-              <tbody>
-                <tr>
-                  <th className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4 text-left">
-                    Commencer à écrire tout seul.
-                  </th>
-                  <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                    Reconnaître les lettres de l’alphabet et connaître les correspondances entre les<br />
-                    trois manières de les écrire.<br />
-                    Ecrire son prénom en écriture cursive sans modèle.<br />
-                    Copier à l’aide d’un clavier.<br />
-                    Ecrire seul un mot en utilisant des lettres ou groupes de lettres empruntés aux<br />
-                    mots connus.
-                  </td>
+            <br /><br />
+            <div className="block w-full overflow-x-auto">
+              {/* Projects table */}
+              <table className="items-center w-full bg-transparent border-collapse">
 
-                </tr>
+                <tbody>
+                  <tr>
+                    <th className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4 text-left">
+                      Commencer à écrire tout seul.
+                    </th>
+                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
+                      Reconnaître les lettres de l’alphabet et connaître les correspondances entre les<br />
+                      trois manières de les écrire.<br />
+                      Ecrire son prénom en écriture cursive sans modèle.<br />
+                      Copier à l’aide d’un clavier.<br />
+                      Ecrire seul un mot en utilisant des lettres ou groupes de lettres empruntés aux<br />
+                      mots connus.
+                    </td>
 
-              </tbody>
-            </table>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+            <div className="block w-full overflow-x-auto">
+              {/* Projects table */}
+              <table className="items-center w-full bg-transparent border-collapse">
+                <thead>
+                  <tr>
+                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
+                      L’enseignant observe que l’enfant commence à réussir ou réussit<br />
+                      régulièrement à…
+                    </th>
+                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
+                      Contexte, circonstances,<br />
+                      dispositifs, activités…
+                    </th>
+                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
+                      Pour les<br />
+                      apprentissages<br />
+                      suivants…
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
+                      • produire un tracé avec une intention ;<br />
+                      • prendre des repères dans l’espace<br />
+                      feuille ;<br />
+                      • gérerl’espace graphique (aller de gauche<br />
+                      à droite et maintenir un alignement) ;<br />
+                      • adopter une posture confortable ;<br />
+                      • tenir de façon adaptée l’instrument<br />
+                      d’écriture ;<br />
+                      • tracer chaque lettre ;<br />
+                      • enchaîner plusieurs lettres ;<br />
+                      • enchaîner plusieurs lettres en ne levant<br />
+                      qu’à bon escient l’instrument d’écriture ;<br />
+                      • s’exercer à des transcriptions de mots,<br />
+                      phrases, courts textes connus, à leur saisie<br />
+                      sur ordinateur.<br />
+                      • produire des suites de lettres : pseudos<br />
+                      lettres ou (et) des lettres sans valeur<br />
+                      sonore ;<br />
+                      • utiliser le nom des lettres pour encoder<br />
+                      un mot : par exemple KKO pour cacao ;<br />
+                      • utiliser des mots connus mémorisés<br />
+                      ou retrouvés dans les outils de la classe<br />
+                      (affichages, répertoires de mots, textes de<br />
+                      référence…) ;<br />
+                      • utiliser un morceau de mot connu ;<br />
+                      • utiliser un code quel qu’il soit : un<br />
+                      phonogramme « j’ai dessiné une dent<br />
+                      pour faire le son [an] » ; une lettre (o pour<br />
+                      écrire « mo ») qui a la valeur symbolique<br />
+                      d’unité entendue dans la prononciation du<br />
+                      mot ;<br />
+                      • encoder un mot en prenant appui sur la<br />
+                      syllabe : par exemple AAE pour malade ;<br />
+                      • encoder un mot en prenant appui sur<br />
+                      la syllabe et le phonème : FOTO pour<br />
+                      écrire « photo » ; LIVER pour l’hiver.<br />
+                    </th>
+                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
+                      Ecriture :
+                      • du prénom, du nom de famille<br />
+                      • d’un mot collectif simple, court,<br />
+                      se référant à un vécu commun<br />
+                      (marionnette, héros d’une histoire)<br />
+                      • de la légende de dessins ou de<br />
+                      photos…<br />
+                      • d’un mot choisi par l’enfant<br />
+                      • d’autres mots qui permettent un<br />
+                      travail approfondi sur certaines<br />
+                      lettres, notamment celles qui ont<br />
+                      posé des difficultés.<br />
+                      Copie :<br />
+                      • de mots attrayants (nom d’un<br />
+                      camarade, d’un héros d’album,<br />
+                      d’une fête scolaire, etc.)<br />
+                      • de plusieurs mots ou courtes<br />
+                      phrases (légende, expressions,<br />
+                      locution.) Travail sur des interlignes<br />
+                      de plus en plus réduits (sans aller<br />
+                      en-deçà de 0,5 cm) ; travail des<br />
+                      liaisons (ou ligatures) entre les<br />
+                      lettres.<br />
+                      Traduction graphique :<br />
+                      • de quelques sonorités d’un<br />
+                      mot pour lequel ils éprouvent de<br />
+                      l’intérêt alors qu’ils n’ont pas le<br />
+                      modèle sous les yeux (écritures<br />
+                      spontanées).
+                    </td>
+
+
+                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
+                      Contrôler, guider et maîtriser les<br />
+                      gestes moteurs mobilisés dans le<br />
+                      dessin et l’écriture<br />
+                      S’entraîner avant de pratiquer<br />
+                      l’écriture cursive : des exercices<br />
+                      graphiques.<br />
+                      <br />
+                      Découvrir le principe alphabétique<br />
+                      tout en s’initiant à la maîtrise<br />
+                      motrice du tracé de mots et de<br />
+                      lettres<br />
+                      S’essayer à l’écriture de mots.<br />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           </div>
-          <div className="block w-full overflow-x-auto">
-            {/* Projects table */}
-            <table className="items-center w-full bg-transparent border-collapse">
-              <thead>
-                <tr>
-                  <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                    L’enseignant observe que l’enfant commence à réussir ou réussit<br />
-                    régulièrement à…
-                  </th>
-                  <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                    Contexte, circonstances,<br />
-                    dispositifs, activités…
-                  </th>
-                  <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                    Pour les<br />
-                    apprentissages<br />
-                    suivants…
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                    • produire un tracé avec une intention ;<br />
-                    • prendre des repères dans l’espace<br />
-                    feuille ;<br />
-                    • gérerl’espace graphique (aller de gauche<br />
-                    à droite et maintenir un alignement) ;<br />
-                    • adopter une posture confortable ;<br />
-                    • tenir de façon adaptée l’instrument<br />
-                    d’écriture ;<br />
-                    • tracer chaque lettre ;<br />
-                    • enchaîner plusieurs lettres ;<br />
-                    • enchaîner plusieurs lettres en ne levant<br />
-                    qu’à bon escient l’instrument d’écriture ;<br />
-                    • s’exercer à des transcriptions de mots,<br />
-                    phrases, courts textes connus, à leur saisie<br />
-                    sur ordinateur.<br />
-                    • produire des suites de lettres : pseudos<br />
-                    lettres ou (et) des lettres sans valeur<br />
-                    sonore ;<br />
-                    • utiliser le nom des lettres pour encoder<br />
-                    un mot : par exemple KKO pour cacao ;<br />
-                    • utiliser des mots connus mémorisés<br />
-                    ou retrouvés dans les outils de la classe<br />
-                    (affichages, répertoires de mots, textes de<br />
-                    référence…) ;<br />
-                    • utiliser un morceau de mot connu ;<br />
-                    • utiliser un code quel qu’il soit : un<br />
-                    phonogramme « j’ai dessiné une dent<br />
-                    pour faire le son [an] » ; une lettre (o pour<br />
-                    écrire « mo ») qui a la valeur symbolique<br />
-                    d’unité entendue dans la prononciation du<br />
-                    mot ;<br />
-                    • encoder un mot en prenant appui sur la<br />
-                    syllabe : par exemple AAE pour malade ;<br />
-                    • encoder un mot en prenant appui sur<br />
-                    la syllabe et le phonème : FOTO pour<br />
-                    écrire « photo » ; LIVER pour l’hiver.<br />
-                  </th>
-                  <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                    Ecriture :
-                    • du prénom, du nom de famille<br />
-                    • d’un mot collectif simple, court,<br />
-                    se référant à un vécu commun<br />
-                    (marionnette, héros d’une histoire)<br />
-                    • de la légende de dessins ou de<br />
-                    photos…<br />
-                    • d’un mot choisi par l’enfant<br />
-                    • d’autres mots qui permettent un<br />
-                    travail approfondi sur certaines<br />
-                    lettres, notamment celles qui ont<br />
-                    posé des difficultés.<br />
-                    Copie :<br />
-                    • de mots attrayants (nom d’un<br />
-                    camarade, d’un héros d’album,<br />
-                    d’une fête scolaire, etc.)<br />
-                    • de plusieurs mots ou courtes<br />
-                    phrases (légende, expressions,<br />
-                    locution.) Travail sur des interlignes<br />
-                    de plus en plus réduits (sans aller<br />
-                    en-deçà de 0,5 cm) ; travail des<br />
-                    liaisons (ou ligatures) entre les<br />
-                    lettres.<br />
-                    Traduction graphique :<br />
-                    • de quelques sonorités d’un<br />
-                    mot pour lequel ils éprouvent de<br />
-                    l’intérêt alors qu’ils n’ont pas le<br />
-                    modèle sous les yeux (écritures<br />
-                    spontanées).
-                  </td>
-
-
-                  <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                    Contrôler, guider et maîtriser les<br />
-                    gestes moteurs mobilisés dans le<br />
-                    dessin et l’écriture<br />
-                    S’entraîner avant de pratiquer<br />
-                    l’écriture cursive : des exercices<br />
-                    graphiques.<br />
-                    <br />
-                    Découvrir le principe alphabétique<br />
-                    tout en s’initiant à la maîtrise<br />
-                    motrice du tracé de mots et de<br />
-                    lettres<br />
-                    S’essayer à l’écriture de mots.<br />
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         </div>
 
-      </div>
-
       </section>
+      <br />
+            <br />
+            <br />
+            <br />
 
       <Footer />
     </>

@@ -56,11 +56,11 @@ export default function Index() {
 
 
 
-      <section >
+      <section>
         <div className="container mx-auto px-4 pb-8 pt-8">
 
           <h4 className="text-blueGray-500">
-            <b>Oser entrer en communication</b> <br/> Communiquer avec les adultes et les autres enfants en se faisant comprendre.
+            <b>Oser entrer en communication</b> <br /> Communiquer avec les adultes et les autres enfants en se faisant comprendre.
           </h4>
 
           <div className="items-center flex flex-wrap bg-gray-100">
@@ -259,322 +259,690 @@ export default function Index() {
         </div>
       </section>
 
-      <section>
+
+      <section >
         <div className="container mx-auto px-4 pb-8 pt-8">
+
+          <h4 className="text-blueGray-500">
+            <b> Comprendre et apprendre.</b> <br /> Pratiquer divers usages du langage oral : raconter, décrire, évoquer, expliquer,
+            questionner, proposer des solutions, discuter un point de vue. Observer le langage oral dans les trois
+            conduites langagières fondamentales
+          </h4>
+
           <div className="items-center flex flex-wrap bg-gray-100">
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
 
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4 text-left">
-                      Comprendre et apprendre.
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Pratiquer divers usages du langage oral : raconter, décrire, évoquer, expliquer,
-                      questionner, proposer des solutions, discuter un point de vue. Observer le langage oral dans les trois
-                      conduites langagières fondamentales
-                    </td>
+            <ul className="list-none mt-6">
 
-                  </tr>
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                    Expliquer comment il opère en situation de réalisation :<br />
+                    » en énonçant quelques mots clés décrivant son action et/ou les manières ;<br />
+                    » en décrivant chacune des actions.<br />
 
-                </tbody>
-              </table>
-            </div>
+                  </div>
+                </div>
+              </li>
 
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
 
+                    Expliquer comment réaliser quelque chose après l’avoir effectué en s’appuyant sur des traces de l’activité (productions,
+                    maquette, photos, dessins…) :<br />
+                    » en listant des actions et/ou des manières de faire ;<br />
+                    » en enchaînant le déroulement des actions ;<br />
 
-
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
-                <thead>
-                  <tr>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      L’enseignant observe que l’enfant commence à réussir ou réussit
-                      régulièrement à…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Contexte, circonstances,
-                      dispositifs, activités…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Pour les
-                      apprentissages
-                      suivants…
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                      • expliquer comment il opère en situation<br />
-                      de réalisation :<br />
-                      » en énonçant quelques mots clés<br />
-                      décrivant son action et/ou les manières ;<br />
-                      » en décrivant chacune des actions.<br />
-                      • expliquer comment réaliser quelque<br />
-                      chose après l’avoir effectué en s’appuyant<br />
-                      sur des traces de l’activité (productions,<br />
-                      maquette, photos, dessins…) :<br />
-                      » en listant des actions et/ou des<br />
-                      manières de faire ;<br />
-                      » en enchaînant le déroulement des<br />
-                      actions ;<br />
-                      • interpréter son activité au vu du résultat<br />
-                      produit ;<br />
-                      • interpréter une réussite/ un échec en<br />
-                      expliquant les causes ou en expliquant<br />
-                      les conséquences d’une activité, de<br />
-                      l’utilisation d’un outil ;<br />
-                      • anticiper le résultat d’une action, d’un<br />
-                      geste, d’une procédure.<br />
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Situations d’oral sous la forme de<br />
-                      règles du jeu, bilan, compte-rendu,<br />
-                      processus de fabrication, débat,<br />
-                      projet de réalisation, hypothèses<br />
-                      …<br />
-                      …pendant des activités physiques ;<br />
-                      des activités numériques, formes<br />
-                      et grandeurs ; des activités<br />
-                      artistiques ; des activités<br />
-                      d’exploration du monde.<br />
-                    </td>
+                  </div>
+                </div>
+              </li>
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
 
 
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Utiliser le langage oral pour se
-                      construire les outils visant à
-                      expliquer
-                    </td>
-                  </tr>
+                    Interpréter son activité au vu du résultat produit ;<br />
 
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                      • décrire en faisant la liste d’éléments<br />
-                      constitutifs ; matériaux, matériels,<br />
-                      propriétés, qualités… ;<br />
-                      • relater une succession d’événements organisés<br />
-                      ex : « on a pris le bus puis on a vu » ;<br />
-                      • relater une succession d’actions pour<br />
-                      décrire un parcours, une procédure, une<br />
-                      technique… ;<br />
-                      • relater une succession de lieux pour<br />
-                      décrire un itinéraire, un déplacement ;<br />
-                      • rapprocher par les points communs ou<br />
-                      contraster par les points de différences … ;<br />
-                      • situer les uns par rapport aux autres<br />
-                      les éléments composant une image,<br />
-                      un motif, un objet pour donner à voir<br />
-                      (construction d’une image mentale) en<br />
-                      s’appuyant sur des photos, des dessins,<br />
-                      des schématisations ;<br />
-                      • décrire pour anticiper une installation, une<br />
-                      organisation…<br />
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      • Situations d’oral sous la<br />
-                      forme de devinette, itinéraire,<br />
-                      liste, comparaison, procédure,<br />
-                      compte-rendu, consigne, projet de   réalisation...<br />
-                      • …pendant des activités<br />
-                      physiques ; des activités<br />
-                      numériques, formes et grandeurs<br />
-                      ; des activités artistiques ; des<br />
-                      activités d’exploration du monde ;<br />
-                      • …à propos d’une situation, d’un<br />
-                      événement vécus par l’enfant.<br />
-                    </td>
+                  </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
 
 
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Utiliser le langage oral pour se<br />
-                      construire les outils visant à relater<br />
-                      ou décrire.
-                    </td>
-                  </tr>
 
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                      • raconter des actions vécues par le<br />
-                      personnage central en manipulant le<br />
-                      matériel à disposition : marottes + décor<br />
-                      ou en tournant les pages de l’album ;<br />
-                      • raconter en faisant parler les<br />
-                      personnages en utilisant des marottes ;<br />
-                      • alterner récit et dialogues en introduisant<br />
-                      correctement les dialogues et nommant la<br />
-                      personne/personnage qu’il fait parler ;<br />
-                      • enchainer les actions et les émotions des<br />
-                      personnages pour retracer tout le scénario<br />
-                      et l’intrigue de l’histoire ;<br />
-                      • utiliser le système des temps approprié :<br />
-                      imparfait, passé simple (il prendit, il prenda<br />
-                      …) dans le récit.<br />
-                      • enchaîner judicieusement les phrases<br />
-                      avec des connecteurs adaptés et variés<br />
-                      (les noter) ;<br />
-                      • raconter une histoire en randonnée en<br />
-                      inventant un nouvel épisode crédible à<br />
-                      partir d’un nouveau personnage, ou d’un<br />
-                      nouvel élément ;<br />
-                      • inventer une histoire à partir de quelques<br />
-                      éléments (images/ objets…) ou à partir<br />
-                      des illustrations d’un album non connu.<br />
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Situations d’oral à partir d’histoires<br />
-                      connues :<br />
-                      • Histoires où l’enchaînement des<br />
-                      actions correspond à des scripts<br />
-                      de la vie quotidienne. (le bain, le<br />
-                      coucher, soigner un rhume…).<br />
-                      • Histoires où l’enchaînement<br />
-                      des actions est organisé vers une<br />
-                      chute (récits à structure répétitive,<br />
-                      contes de randonnée).<br />
-                      • Histoires où l’enchaînement<br />
-                      des actions est lié au destin d’un<br />
-                      personnage central qui évolue et<br />
-                      dont la transformation est<br />
-                      perceptible entre l’état initial et l’état<br />
-                      final du récit.<br />
-                    </td>
+                    • interpréter une réussite/ un échec en 
+                    expliquant les causes ou en expliquant
+                    les conséquences d’une activité, de
+                    l’utilisation d’un outil ;<br />
+
+                  </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
 
 
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Utiliser le langage oral pour se<br />
-                      construire les outils nécessaires<br />
-                      pour raconter.
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+
+
+                    • anticiper le résultat d’une action, d’un<br />
+                    geste, d’une procédure.<br />
+                  </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div className="text-blueGray-500">
+
+                    Utiliser le langage oral pour se
+                    construire les outils visant à
+                    expliquer</div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div><i><b>Context:</b> Situations d’oral sous la forme de<br />
+                    règles du jeu, bilan, compte-rendu,<br />
+                    processus de fabrication, débat,<br />
+                    projet de réalisation, hypothèses<br />
+                    …<br />
+                    …pendant des activités physiques ;<br />
+                    des activités numériques, formes<br />
+                    et grandeurs ; des activités<br />
+                    artistiques ; des activités<br />
+                    d’exploration du monde.<br />
+                    …</i>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+
+
+          </div>
+
+          <div className="items-center flex flex-wrap bg-gray-100">
+
+            <ul className="list-none mt-6">
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                    • décrire en faisant la liste d’éléments<br />
+                    constitutifs ; matériaux, matériels,<br />
+                    propriétés, qualités… ;<br />
+
+
+                  </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+
+                    • relater une succession d’événements organisés<br />
+                    ex : « on a pris le bus puis on a vu » ;<br />
+
+
+                  </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+
+
+                    • relater une succession d’actions pour<br />
+                    décrire un parcours, une procédure, une<br />
+                    technique… ;<br />
+
+                  </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+
+
+
+                    • relater une succession de lieux pour<br />
+                    décrire un itinéraire, un déplacement ;<br />
+
+
+                  </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+
+
+
+
+                    • rapprocher par les points communs ou<br />
+                    contraster par les points de différences … ;<br />
+
+
+                  </div>
+                </div>
+              </li>
+
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+
+
+
+
+
+                    • situer les uns par rapport aux autres<br />
+                    les éléments composant une image,<br />
+                    un motif, un objet pour donner à voir<br />
+                    (construction d’une image mentale) en<br />
+                    s’appuyant sur des photos, des dessins,<br />
+                    des schématisations ;<br />
+
+
+                  </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+
+
+
+
+
+
+                    • décrire pour anticiper une installation, une<br />
+                    organisation…<br />
+
+                  </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div className="text-blueGray-500">
+
+                    Utiliser le langage oral pour se<br />
+                    construire les outils visant à relater<br />
+                    ou décrire.</div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div><i><b>Context:</b>   • Situations d’oral sous la<br />
+                    forme de devinette, itinéraire,<br />
+                    liste, comparaison, procédure,<br />
+                    compte-rendu, consigne, projet de   réalisation...<br />
+                    • …pendant des activités<br />
+                    physiques ; des activités<br />
+                    numériques, formes et grandeurs<br />
+                    ; des activités artistiques ; des<br />
+                    activités d’exploration du monde ;<br />
+                    • …à propos d’une situation, d’un<br />
+                    événement vécus par l’enfant.<br />
+                    …</i>
+                  </div>
+                </div>
+              </li>
+
+
+            </ul>
+
+
+          </div>
+
+          <div className="items-center flex flex-wrap bg-gray-100">
+
+            <ul className="list-none mt-6">
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                    • raconter des actions vécues par le<br />
+                    personnage central en manipulant le<br />
+                    matériel à disposition : marottes + décor<br />
+                    ou en tournant les pages de l’album ;<br />
+                   
+
+
+                  </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                  
+                    • raconter en faisant parler les<br />
+                    personnages en utilisant des marottes ;<br />
+                    
+
+
+                  </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                  
+                   
+                    • alterner récit et dialogues en introduisant<br />
+                    correctement les dialogues et nommant la<br />
+                    personne/personnage qu’il fait parler ;<br />
+                   
+
+
+                  </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                  
+                   
+                  
+                    • enchainer les actions et les émotions des<br />
+                    personnages pour retracer tout le scénario<br />
+                    et l’intrigue de l’histoire ;<br />
+                   
+
+
+                  </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                  
+                   
+     
+                    • utiliser le système des temps approprié :<br />
+                    imparfait, passé simple (il prendit, il prenda<br />
+                    …) dans le récit.<br />
+                  
+
+
+                  </div>
+                </div>
+              </li>
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                  
+                   
+                  
+                   
+                    • enchaîner judicieusement les phrases<br />
+                    avec des connecteurs adaptés et variés<br />
+                    (les noter) ;<br />
+                   
+
+
+                  </div>
+                </div>
+              </li>
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                  
+                   
+                  
+                   
+                  
+                    • raconter une histoire en randonnée en<br />
+                    inventant un nouvel épisode crédible à<br />
+                    partir d’un nouveau personnage, ou d’un<br />
+                    nouvel élément ;<br />
+                   
+
+
+                  </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                  
+                   
+                  
+                   
+                  
+                  
+                    • inventer une histoire à partir de quelques<br />
+                    éléments (images/ objets…) ou à partir<br />
+                    des illustrations d’un album non connu.<br />
+
+
+                  </div>
+                </div>
+              </li>
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div className="text-blueGray-500">
+
+                    Utiliser le langage oral pour se<br />
+                    construire les outils nécessaires<br />
+                    pour raconter.</div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div><i><b>Context:</b>    Situations d’oral à partir d’histoires<br />
+                    connues :<br />
+                    • Histoires où l’enchaînement des<br />
+                    actions correspond à des scripts<br />
+                    de la vie quotidienne. (le bain, le<br />
+                    coucher, soigner un rhume…).<br />
+                    • Histoires où l’enchaînement<br />
+                    des actions est organisé vers une<br />
+                    chute (récits à structure répétitive,<br />
+                    contes de randonnée).<br />
+                    • Histoires où l’enchaînement<br />
+                    des actions est lié au destin d’un<br />
+                    personnage central qui évolue et<br />
+                    dont la transformation est<br />
+                    perceptible entre l’état initial et l’état<br />
+                    final du récit.<br />
+                  </i>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+
+
           </div>
         </div>
       </section>
 
-      <section>
-        <div className="container mx-auto px-4 pb-8 pt-8" >
+
+
+
+      <section >
+        <div className="container mx-auto px-4 pb-8 pt-8">
+
+          <h4 className="text-blueGray-500">
+            <b> Une autre manière d’observer le langage oral</b> <br /> dans les domaines d’apprentissage
+          </h4>
+
           <div className="items-center flex flex-wrap bg-gray-100">
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
 
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4 text-left">
-                      Une autre manière d’observer le langage oral
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      dans les domaines d’apprentissage
-                    </td>
+            <ul className="list-none mt-6">
 
-                  </tr>
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                    • nommer :<br />
+                    • des objets, du matériel, des matériaux,<br />
+                    des personnes, des rôles ;<br />
+                    • des actions, des gestes ;<br />
+                    • des propriétés, des qualités, des effets<br />
+                    produits ;<br />
+                    • des relations spatiales, temporelles et<br />
+                    logiques.<br />
 
-                </tbody>
-              </table>
-            </div>
-
-
-
-
-
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
-                <thead>
-                  <tr>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      L’enseignant observe que l’enfant commence à réussir ou réussit
-                      régulièrement à…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Contexte, circonstances,<br />
-                      dispositifs, activités…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Pour les apprentissages suivants…
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                      • nommer :<br />
-                      • des objets, du matériel, des matériaux,<br />
-                      des personnes, des rôles ;<br />
-                      • des actions, des gestes ;<br />
-                      • des propriétés, des qualités, des effets<br />
-                      produits ;<br />
-                      • des relations spatiales, temporelles et<br />
-                      logiques.<br />
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Parler pour reconnaître, nommer,<br />
-                      désigner dans :<br />
-                      • les activités physiques ;<br />
-                      • les activités numériques, les<br />
-                      formes, les grandeurs ;
-                      • les activités artistiques ;<br />
-                      • les activités d’exploration du<br />
-                      monde.
-                    </td>
-
-
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Utilisation de :<br />
-                      • lexique précis
-                    </td>
-                  </tr>
+                  </div>
+                </div>
+              </li>
 
 
 
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div className="text-blueGray-500">
 
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                      • lister, énumérer les éléments<br />
-                      caractéristiques de formes, d’objets… ;<br />
-                      • situer les uns par rapport aux autres les<br />
-                      éléments composant une image, un objet<br />
-                      ... pour donner à voir (construction d’une<br />
-                      image mentale) ;<br />
-                      • situer dans l’espace personnes, objets et<br />
-                      actions ;<br />
-                      • situer dans le temps les actions, les<br />
-                      évolutions ;<br />
-                      • orienter un trajet dans l’espace.<br />
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Parler pour décrire,<br />
-                      décomposer dans :<br />
-                      • les activités physiques ;<br />
-                      • les activités numériques, les<br />
-                      formes, les grandeurs ;<br />
-                      • les activités artistiques ;<br />
-                      • les activités d’exploration du<br />
-                      monde.
-                    </td>
+                    Utilisation de :<br />
+                    • lexique précis</div>
+                </div>
+              </li>
 
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div><i><b>Context:</b>  Parler pour reconnaître, nommer,<br />
+                    désigner dans :<br />
+                    • les activités physiques ;<br />
+                    • les activités numériques, les<br />
+                    formes, les grandeurs ;
+                    • les activités artistiques ;<br />
+                    • les activités d’exploration du<br />
+                    monde.
+                    …</i>
+                  </div>
+                </div>
+              </li>
 
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Utilisation de :<br />
-                      • adverbes : à droite…<br />
-                      • prépositions dans, sous…<br />
-                      • adjectifs, compléments du nom,<br />
-                      propositions relatives
-                    </td>
-                  </tr>
+            </ul>
 
 
+          </div>
 
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                      • rapprocher par les points communs<br />
+          <div className="items-center flex flex-wrap bg-gray-100">
+
+            <ul className="list-none mt-6">
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                    • lister, énumérer les éléments<br />
+                    caractéristiques de formes, d’objets… ;<br />
+                    • situer les uns par rapport aux autres les<br />
+                    éléments composant une image, un objet<br />
+                    ... pour donner à voir (construction d’une<br />
+                    image mentale) ;<br />
+                    • situer dans l’espace personnes, objets et<br />
+                    actions ;<br />
+                    • situer dans le temps les actions, les<br />
+                    évolutions ;<br />
+                    • orienter un trajet dans l’espace.<br />
+
+                  </div>
+                </div>
+              </li>
+
+
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div className="text-blueGray-500">
+
+                    Utilisation de :<br />
+                    • adverbes : à droite…<br />
+                    • prépositions dans, sous…<br />
+                    • adjectifs, compléments du nom,<br />
+                    propositions relatives</div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div><i><b>Context:</b> Parler pour décrire,<br />
+                    décomposer dans :<br />
+                    • les activités physiques ;<br />
+                    • les activités numériques, les<br />
+                    formes, les grandeurs ;<br />
+                    • les activités artistiques ;<br />
+                    • les activités d’exploration du<br />
+                    monde.
+                    …</i>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+
+
+          </div>
+
+          <div className="items-center flex flex-wrap bg-gray-100">
+
+            <ul className="list-none mt-6">
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                  • rapprocher par les points communs<br />
                       (éléments ou caractéristiques) ;<br />
                       • contraster par les points de différences<br />
                       (éléments ou caractéristiques) ;<br />
@@ -585,9 +953,33 @@ export default function Index() {
                       véhicules …) ;<br />
                       • opposer des caractéristiques par<br />
                       l’utilisation de mots contraires.
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Parler pour comparer, contraster,<br />
+
+                  </div>
+                </div>
+              </li>
+
+
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div className="text-blueGray-500">
+
+                  Utilisation de :<br />
+                      • comme<br />
+                      • plus/moins/aussi<br />
+                      • superlatifs : le meilleur …<br />
+                      • contraires…</div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div><i><b>Context:</b> Parler pour comparer, contraster,<br />
                       rapprocher dans :<br />
                       • les activités physiques ;<br />
                       • les activités numériques, les<br />
@@ -595,135 +987,159 @@ export default function Index() {
                       • les activités artistiques ;<br />
                       • les activités d’exploration du<br />
                       monde.
-                    </td>
+                    …</i>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
 
 
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Utilisation de :<br />
-                      • comme<br />
-                      • plus/moins/aussi<br />
-                      • superlatifs : le meilleur …<br />
-                      • contraires…
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
           </div>
         </div>
       </section>
 
-
-      <section>
+      
+      <section >
         <div className="container mx-auto px-4 pb-8 pt-8">
+
+          <h4 className="text-blueGray-500">
+            <b>  Mobiliser le langage dans toutes ses dimensions</b>
+          </h4>
+
           <div className="items-center flex flex-wrap bg-gray-100">
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
 
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4 text-left">
-                      Mobiliser le langage dans toutes ses dimensions
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
+            <ul className="list-none mt-6">
 
-                    </td>
-
-                  </tr>
-
-                </tbody>
-              </table>
-            </div>
-
-
-
-
-
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
-                <thead>
-                  <tr>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      L’enseignant observe que l’enfant commence à réussir ou réussit<br />
-                      régulièrement à…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Contexte, circonstances,<br />
-                      dispositifs, activités…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Pour les<br />
-                      apprentissages<br />
-                      suivants…
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                      • justifier un choix, une décision, une<br />
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                  • justifier un choix, une décision, une<br />
                       action, un comportement … ;<br />
                       • expliquer un déroulement ;<br />
                       • dire les manières de… ;<br />
                       • expliquer les causes, les conséquences,<br />
                       la condition ;<br />
                       • dire les procédures pour faire, pour jouer.<br />
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Parler pour expliquer dans :<br />
+
+                  </div>
+                </div>
+              </li>
+
+
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div className="text-blueGray-500">
+
+                  Utilisation de :<br />
+                      • compléments circonstanciels<br />
+                      de manière<br />
+                      • connecteurs (parce que/à<br />
+                      cause de) conditions<br /></div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div><i><b>Context:</b>   Parler pour expliquer dans :<br />
                       • les activités physiques ;<br />
                       • les activités numériques, les<br />
                       formes, les grandeurs ;<br />
                       • les activités artistiques ;<br />
                       • les activités d’exploration du<br />
-                      monde.
-                    </td>
+                      monde.</i>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
 
 
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Utilisation de :<br />
-                      • compléments circonstanciels<br />
-                      de manière<br />
-                      • connecteurs (parce que/à<br />
-                      cause de) conditions<br />
-                    </td>
-                  </tr>
+          </div>
 
+          <div className="items-center flex flex-wrap bg-gray-100">
 
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                      • prévoir une installation, une organisation ;<br />
+            <ul className="list-none mt-6">
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                  • prévoir une installation, une organisation ;<br />
                       • prévoir une succession d’actions,<br />
                       d’activités ;<br />
                       • prévoir des résultats, des effets, des<br />
                       évènements, des actions, des réactions ;<br />
                       • prévoir une procédure de réalisation.<br />
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Parler pour anticiper, se<br />
+                  </div>
+                </div>
+              </li>
+
+
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div className="text-blueGray-500">
+
+                  Utilisation de :<br />
+                      • conditionnel /Futur simple,<br />
+                      proche, antérieur<br />
+                      • adverbe peut-être<br /></div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div><i><b>Context:</b>   Parler pour anticiper, se<br />
                       projeter dans :<br />
                       • les activités physiques,<br />
                       artistiques ;<br />
                       • les activités numériques, les<br />
                       formes, les grandeurs ;<br />
                       • les activités d’exploration du<br />
-                      monde.
-                    </td>
+                      monde.</i>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
 
 
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Utilisation de :<br />
-                      • conditionnel /Futur simple,<br />
-                      proche, antérieur<br />
-                      • adverbe peut-être<br />
-                    </td>
-                  </tr>
+          </div>
 
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                      A partir de sa propre expérience ou savoir :<br />
+          <div className="items-center flex flex-wrap bg-gray-100">
+
+            <ul className="list-none mt-6">
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                  A partir de sa propre expérience ou savoir :<br />
                       • évoquer une émotion, un fait, une<br />
                       sensation, une action à partir d’œuvres<br />
                       musicales ou visuelles, de danses, de jeu<br />
@@ -734,86 +1150,74 @@ export default function Index() {
                       • modifier légèrement une règle, une<br />
                       histoire, un rôle … ;<br />
                       • imaginer les raisons de…
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Parler pour interpréter dans :<br />
-                      • les activités physiques ;<br />
-                      • les activités numériques, les<br />
-                      formes, les grandeurs ;<br />
-                      • les activités artistiques ;<br />
-                      • les activités d’exploration du<br />
-                      monde.
-                    </td>
+                  </div>
+                </div>
+              </li>
 
 
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Utilisation de :<br />
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div className="text-blueGray-500">
+
+                  Utilisation de :<br />
                       • expression de l’incertitude (il<br />
                       me semble…)<br />
                       • lexique sensations<br />
                       • jeux de rôles<br />
                       • comparaison : on dirait<br />
-                      • comparatifs.
-                    </td>
-                  </tr>
+                      • comparatifs.</div>
+                </div>
+              </li>
 
-                </tbody>
-              </table>
-            </div>
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div><i><b>Context:</b>     Parler pour interpréter dans :<br />
+                      • les activités physiques ;<br />
+                      • les activités numériques, les<br />
+                      formes, les grandeurs ;<br />
+                      • les activités artistiques ;<br />
+                      • les activités d’exploration du<br />
+                      monde.</i>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+
 
           </div>
+
         </div>
       </section>
 
-      <section>
+      <section >
         <div className="container mx-auto px-4 pb-8 pt-8">
-          <div className="items-center flex flex-wrap bg-gray-100">
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
 
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4 text-left">
-                      Échanger et réfléchir avec les
-                      autres.
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      S’exprimer et se faire comprendre dans un langage syntaxiquement correct et
+          <h4 className="text-blueGray-500">
+            <b>   Échanger et réfléchir avec les
+                      autres.</b> S’exprimer et se faire comprendre dans un langage syntaxiquement correct et
                       précis.
-                    </td>
+          </h4>
 
-                  </tr>
+          <div className="items-center flex flex-wrap bg-gray-100">
 
-                </tbody>
-              </table>
-            </div>
+            <ul className="list-none mt-6">
 
-
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
-                <thead>
-                  <tr>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      L’enseignant observe que l’enfant commence à réussir ou réussit
-                      régulièrement à…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Contexte, circonstances,
-                      dispositifs, activités…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Pour les
-                      apprentissages
-                      suivants…
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                      • utiliser des « mots phrases »<br />
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                  • utiliser des « mots phrases »<br />
                       ex : « couper ! » pour : il faut couper l’orange avec le couteau ;<br />
                       • juxtaposer deux mots pour se faire comprendre<br />
                       ex : « Ezio tombé » pour : je suis tombé ;<br />
@@ -833,30 +1237,61 @@ export default function Index() {
                       circonstanciels (temps, lieu, cause…) ;<br />
                       • élaborer des phrases complexes avec propositions<br />
                       subordonnées ;<br />
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Conversation<br />
+
+                  </div>
+                </div>
+              </li>
+
+
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div className="text-blueGray-500">
+
+                  Progression syntaxique<br />
+                      des propositions dans les<br />
+                      différentes conduites<br />
+                      orales..</div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div><i><b>Context:</b>   Conversation<br />
                       Compte-rendu<br />
                       Nouvelle<br />
                       Récit<br />
                       Commentaire<br />
                       Discussion, débat<br />
                       Consigne d’action<br />
-                      Synthèse et bilan<br />
-                    </td>
+                      Synthèse et bilan<br /></i>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
 
 
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Progression syntaxique<br />
-                      des propositions dans les<br />
-                      différentes conduites<br />
-                      orales..
-                    </td>
-                  </tr>
+          </div>
 
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                      • s’appuyer beaucoup sur des verbes très fréquents (dire, faire,<br />
+          <div className="items-center flex flex-wrap bg-gray-100">
+
+            <ul className="list-none mt-6">
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                  • s’appuyer beaucoup sur des verbes très fréquents (dire, faire,<br />
                       mettre, aller, prendre, avoir, être…) et des pronoms pour<br />
                       s’exprimer<br />
                       ex : il l’a pris … vas-y met le !... ;<br />
@@ -879,85 +1314,74 @@ export default function Index() {
                       • utiliser des connecteurs logiques, temporels<br />
                       ex : parce que, alors, tout à coup, ensuite, enfin, d’abord, après,<br />
                       pendant…
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Conversation<br />
+
+                  </div>
+                </div>
+              </li>
+
+
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div className="text-blueGray-500">
+
+                  Progression lexicale des<br />
+                      propositions dans les<br />
+                      différentes conduites<br />
+                      orales.</div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div><i><b>Context:</b>    Conversation<br />
                       Compte-rendu<br />
                       Nouvelle<br />
                       Récit<br />
                       Commentaire<br />
                       Discussion, débat<br />
                       Consigne d’action<br />
-                      Synthèse et bilan<br />
-                    </td>
+                      Synthèse et bilan<br /></i>
+                  </div>
+                </div>
+              </li>
 
+            </ul>
 
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Progression lexicale des<br />
-                      propositions dans les<br />
-                      différentes conduites<br />
-                      orales.
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
 
           </div>
         </div>
-      </section>
+      </section> 
 
+      <section >
+        <div className="container mx-auto px-4 pb-8 pt-8">
 
-      <section>
-        <div className="container mx-auto px-4 pb-8 pt-8" >
-          <div className="items-center flex flex-wrap bg-gray-100">
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
-
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4 text-left">
-                      Commencer à réfléchir sur<br />
+          <h4 className="text-blueGray-500">
+            <b>   Commencer à réfléchir sur<br />
                       la langue et acquérir une<br />
-                      conscience phonologique.<br />
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Repérer les régularités dans la langue à l’oral en français. Manipuler des syllabes.<br />
+                      conscience phonologique.<br /></b> Repérer les régularités dans la langue à l’oral en français. Manipuler des syllabes.<br />
                       Discriminer des sons (syllabes, sons voyelles ; quelques sons –consonnes hors<br />
                       des consonnes occlusives).
-                    </td>
+          </h4>
 
-                  </tr>
+          <div className="items-center flex flex-wrap bg-gray-100">
 
-                </tbody>
-              </table>
-            </div>
+            <ul className="list-none mt-6">
 
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
-                <thead>
-                  <tr>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      L’enseignant observe que l’enfant commence à réussir ou réussit<br />
-                      régulièrement à…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Contexte, circonstances,<br />
-                      dispositifs, activités…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Pour les<br />
-                      apprentissages<br />
-                      suivants…
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                      • synchroniser le débit de la comptine ou jeu de doigts récité<br />
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                  • synchroniser le débit de la comptine ou jeu de doigts récité<br />
                       avec la gestuelle associée ;<br />
                       • réciter comptines et vire-langues en prêtant attention aux<br />
                       assonances, aux allitérations et à l’articulation en jeu ;<br />
@@ -974,9 +1398,33 @@ export default function Index() {
                       • produire des pseudo-mots par combinaison de syllabes ;<br />
                       • isoler et discriminer un phonème dont l’articulation peut<br />
                       être maintenue (voyelle, /s/, /f/, /z/ etc.) ;
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      • localiser et coder la place d’un phonème dans le mot<br />
+
+                  </div>
+                </div>
+              </li>
+
+
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div className="text-blueGray-500">
+
+                  Réfléchir sur les unités<br />
+                      sonores de la langue en<br />
+                      se détachant du sens des<br />
+                      mots.
+                      </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div><i><b>Context:</b>    • localiser et coder la place d’un phonème dans le mot<br />
                       (première, deuxième… syllabe/ début, milieu ou fin de<br />
                       mot) ;<br />
                       • distinguer des sons proches (f/v, s/ch, s/z, ch/f etc…)..<br />
@@ -990,70 +1438,40 @@ export default function Index() {
                       • listes de mots<br />
                       • boites à mots<br />
                       • images<br />
-                      • texte<br />
-                    </td>
+                      • texte<br /></i>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
 
 
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Réfléchir sur les unités<br />
-                      sonores de la langue en<br />
-                      se détachant du sens des<br />
-                      mots.
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
           </div>
+
+         
         </div>
-      </section>
+      </section> 
 
+      <section >
+        <div className="container mx-auto px-4 pb-8 pt-8">
 
-      <section>
-        <div className="container mx-auto px-4 pb-8 pt-8" >
+          <h4 className="text-blueGray-500">
+            <b>  Ecouter de l’écrit et comprendre</b>Manifester de la curiosité par rapport à l’écrit. Comprendre des textes écrits sans autre aide que le langage entendu.
+          </h4>
+
           <div className="items-center flex flex-wrap bg-gray-100">
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
 
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4 text-left">
-                      Ecouter de l’écrit et comprendre
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Manifester de la curiosité par rapport à l’écrit. Comprendre des textes écrits sans autre aide que le langage entendu.
-                    </td>
+            <ul className="list-none mt-6">
 
-                  </tr>
-
-                </tbody>
-              </table>
-            </div>
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
-                <thead>
-                  <tr>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      L’enseignant observe que l’enfant commence à réussir ou réussit
-                      régulièrement à…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Contexte, circonstances,<br />
-                      dispositifs, activités…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Pour les<br />
-                      apprentissages<br />
-                      suivants…
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                      • montrer du plaisir à écouter des<br />
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                  • montrer du plaisir à écouter des<br />
                       histoires ;<br />
                       • fréquenter spontanément et<br />
                       régulièrement l’espace lecture ;<br />
@@ -1093,9 +1511,35 @@ export default function Index() {
                       personnage), une autre fin (si…) ;<br />
                       • dire ce qu’il aurait fait à la place de tel<br />
                       personnage à un moment clé de l’histoire.<br />
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Supports de lecture<br />
+
+                  </div>
+                </div>
+              </li>
+
+
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div className="text-blueGray-500">
+
+                  Réception de langage écrit<br />
+                      pour en comprendre le contenu :<br />
+                      choix de textes de plus en plus<br />
+                      longs et éloignés de l’oral ;<br />
+                      (littérature de jeunesse : textes de<br />
+                      fiction et documentaire).
+                      </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div><i><b>Context:</b>     Supports de lecture<br />
                       Histoires où l’enchaînement des<br />
                       actions correspond à des scripts<br />
                       de la vie quotidienne de l’enfant (Le<br />
@@ -1112,73 +1556,40 @@ export default function Index() {
                       perceptible entre l’état initial et l’état<br />
                       final du récit.<br />
                       • Documentaires en lien avec un<br />
-                      projet de classe.
-                    </td>
+                      projet de classe.</i>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
 
 
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Réception de langage écrit<br />
-                      pour en comprendre le contenu :<br />
-                      choix de textes de plus en plus<br />
-                      longs et éloignés de l’oral ;<br />
-                      (littérature de jeunesse : textes de<br />
-                      fiction et documentaire).
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div></div>
-      </section>
+          </div>
 
-      <section>
-        <div className="container mx-auto px-4 pb-8 pt-8" >
+         
+        </div>
+      </section> 
+
+      <section >
+        <div className="container mx-auto px-4 pb-8 pt-8">
+
+          <h4 className="text-blueGray-500">
+            <b> Découvrir la fonction de l’écrit.</b> Manifester de la curiosité par rapport à l’écrit.
+          </h4>
+
           <div className="items-center flex flex-wrap bg-gray-100">
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
 
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4 text-left">
-                      Découvrir la fonction de l’écrit.
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Manifester de la curiosité par rapport à l’écrit.
-                    </td>
+            <ul className="list-none mt-6">
 
-                  </tr>
-
-                </tbody>
-              </table>
-            </div>
-
-
-
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
-                <thead>
-                  <tr>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      L’enseignant observe que l’enfant commence à réussir ou réussit<br />
-                      régulièrement à…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Contexte, circonstances,<br />
-                      dispositifs, activités…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Pour les<br />
-                      apprentissages<br />
-                      suivants…
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                      • s’intéresser : regarder, feuilleter les écrits<br />
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                  • s’intéresser : regarder, feuilleter les écrits<br />
                       présents dans la classe (prénoms, imagiers,<br />
                       cahier de vie…) ;<br />
                       • chercher des repères dans les caractéristiques<br />
@@ -1203,81 +1614,73 @@ export default function Index() {
                       écrit à un projet d’écriture ou de communication ;<br />
                       • proposer spontanément de recourir à l’écrit<br />
                       pour trouver ou transmettre une information.<br />
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      • Situations nécessitant<br />
+
+                  </div>
+                </div>
+              </li>
+
+
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div className="text-blueGray-500">
+
+                  Utiliser divers supports en<br />
+                      relation avec des situations ou des
+                      projets.
+                      </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div><i><b>Context:</b>    • Situations nécessitant<br />
                       l’utilisation de livres<br />
                       variés, affiches, lettres,<br />
                       messages électroniques ou<br />
                       téléphoniques, étiquettes,<br />
-                      etc.
-                    </td>
+                      etc.</i>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
 
 
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Utiliser divers supports en<br />
-                      relation avec des situations ou des
-                      projets.
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div></div>
-      </section>
+          </div>
 
+         
+        </div>
+      </section> 
 
-      <section>
+      <section >
         <div className="container mx-auto px-4 pb-8 pt-8">
-          <div className="items-center flex flex-wrap bg-gray-100">
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
 
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4 text-left">
-                      Commencer à produire des<br />
+          <h4 className="text-blueGray-500">
+            <b>  Commencer à produire des<br />
                       écrits et en découvrir le<br />
-                      fonctionnement.
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Participer verbalement à la production d’un écrit.<br />
+                      fonctionnement.</b>  Participer verbalement à la production d’un écrit.<br />
                       Savoir que l’on n’écrit pas comme on parle.
-                    </td>
+          </h4>
 
-                  </tr>
+          <div className="items-center flex flex-wrap bg-gray-100">
 
-                </tbody>
-              </table>
-            </div>
+            <ul className="list-none mt-6">
 
-
-
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
-                <thead>
-                  <tr>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      L’enseignant observe que l’enfant commence à réussir ou réussit
-                      régulièrement à…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Contexte, circonstances,<br />
-                      dispositifs, activités…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Pour les<br />
-                      apprentissages<br />
-                      suivants…
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                      Pour les apprentissages<br />
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                  Pour les apprentissages<br />
                       suivants…<br />
                       faire des propositions de …<br />
                       • fragment de l’information<br />
@@ -1326,9 +1729,43 @@ export default function Index() {
                       • utiliser des termes métalinguistiques<br />
                       (début, fin, phrase, mots, lignes, lettres)<br />
                       pour participer à la gestion de l’écriture.
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Détermination du contenu et<br />
+
+                  </div>
+                </div>
+              </li>
+
+
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div className="text-blueGray-500">
+
+                  • Poésie :<br />
+                      écrire une suite ; écrire un poème<br />
+                      à la manière de…<br />
+                      Comprendre progressivement ce<br />
+                      qu’est l’écrit :<br />
+                      • ce qui se dit peut s’écrire ;<br />
+                      • on n’écrit pas comme on parle ;<br />
+                      • l’écrit permet toutes les reprises<br />
+                      nécessaires ;<br />
+                      • quand on écrit, on fait attention<br />
+                      à ce que l’on dit et à la façon de<br />
+                      le dire ;<br />
+                      • il ne suffit pas de parler pour<br />
+                      dicter.
+                      </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div><i><b>Context:</b>   Détermination du contenu et<br />
                       construction du canevas : se mettre<br />
                       d’accord sur ce qu’on veut dire<br />
                       avec cet écrit.<br />
@@ -1353,87 +1790,45 @@ export default function Index() {
                       message.<br />
                       • dicter pour le faire écrire ;<br />
                       • relire pour continuer, enchaîner<br />
-                      • relire pour valider<br />
-                    </td>
+                      • relire pour valider<br /></i>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
 
 
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      • Poésie :<br />
-                      écrire une suite ; écrire un poème<br />
-                      à la manière de…<br />
-                      Comprendre progressivement ce<br />
-                      qu’est l’écrit :<br />
-                      • ce qui se dit peut s’écrire ;<br />
-                      • on n’écrit pas comme on parle ;<br />
-                      • l’écrit permet toutes les reprises<br />
-                      nécessaires ;<br />
-                      • quand on écrit, on fait attention<br />
-                      à ce que l’on dit et à la façon de<br />
-                      le dire ;<br />
-                      • il ne suffit pas de parler pour<br />
-                      dicter.
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
           </div>
+
+         
         </div>
-      </section>
+      </section> 
 
-      <section>
+      <section >
         <div className="container mx-auto px-4 pb-8 pt-8">
-          <div className="items-center flex flex-wrap bg-gray-100">
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
 
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4 text-left">
-                      Découvrir le principe<br />
-                      alphabétique.
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Manifester de la curiosité par rapport à l’écrit. Pouvoir redire les mots d’une phrase<br />
+          <h4 className="text-blueGray-500">
+            <b>  Découvrir le principe<br />
+                      alphabétique.</b>    Manifester de la curiosité par rapport à l’écrit. Pouvoir redire les mots d’une phrase<br />
                       écrite après sa lecture par l’adulte, les mots du titre connu d’un livre ou d’un texte<br />
                       Reconnaître les lettres de l’alphabet et connaître les correspondances entre les<br />
                       trois manières de les écrire : cursive, script, capitales d’imprimerie.<br />
                       Copier à l’aide d’un clavier
-                    </td>
+          </h4>
 
-                  </tr>
+          <div className="items-center flex flex-wrap bg-gray-100">
 
-                </tbody>
-              </table>
-            </div>
+            <ul className="list-none mt-6">
 
-
-
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
-                <thead>
-                  <tr>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      L’enseignant observe que l’enfant commence à réussir ou réussit<br />
-                      régulièrement à…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Contexte, circonstances,<br />
-                      dispositifs, activités…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Pour les<br />
-                      apprentissages<br />
-                      suivants…
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                      • différencier dessins, écritures, graphismes,<br />
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                  • différencier dessins, écritures, graphismes,<br />
                       pictogrammes, symbole et signes ;<br />
                       • identifier son prénom en prenant des repères visuels<br />
                       (forme de majuscule, longueur, point sur un I, accent,<br />
@@ -1456,9 +1851,38 @@ export default function Index() {
                       majuscule ;<br />
                       • décomposer le mot en syllabes, en isolant la syllabe qu’il<br />
                       écrit, en énonçant le nom de la lettre et sa valeur sonore.<br />
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Dans une situation de<br />
+
+                  </div>
+                </div>
+              </li>
+
+
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div className="text-blueGray-500">
+
+                  Comprendre les<br />
+                      relations entre lettres et<br />
+                      sons et commencer à<br />
+                      mettre en œuvre le<br />
+                      principe alphabétique<br />
+                      pour rendre possibles<br />
+                      les premières écritures<br />
+                      autonomes en fin<br />
+                      d’école maternelle
+                      </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div><i><b>Context:</b>   Dans une situation de<br />
                       - de projet d’écriture<br />
                       - de repérage dans un écrit<br />
                       - de jeux<br />
@@ -1470,107 +1894,47 @@ export default function Index() {
                       Découverte du prénom caché<br />
                       Jeu de l’oie des lettres<br />
                       Lecture et production<br />
-                      d’abécédaires.<br />
-                    </td>
+                      d’abécédaires.<br /></i>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
 
 
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Comprendre les<br />
-                      relations entre lettres et<br />
-                      sons et commencer à<br />
-                      mettre en œuvre le<br />
-                      principe alphabétique<br />
-                      pour rendre possibles<br />
-                      les premières écritures<br />
-                      autonomes en fin<br />
-                      d’école maternelle
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
           </div>
+
+         
         </div>
-      </section>
+      </section> 
 
-      <section>
-        <div className="container mx-auto px-4 pb-8 pt-8" id="langage">
-          <div className="items-center flex flex-wrap bg-gray-100">
+     
 
+      <section >
+        <div className="container mx-auto px-4 pb-8 pt-8">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <br />
-            <br />
-
-
-
-            <br /><br />
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
-
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4 text-left">
-                      Commencer à écrire tout seul.
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Reconnaître les lettres de l’alphabet et connaître les correspondances entre les<br />
+          <h4 className="text-blueGray-500">
+            <b>  Commencer à écrire tout seul.</b>    Reconnaître les lettres de l’alphabet et connaître les correspondances entre les<br />
                       trois manières de les écrire.<br />
                       Ecrire son prénom en écriture cursive sans modèle.<br />
                       Copier à l’aide d’un clavier.<br />
                       Ecrire seul un mot en utilisant des lettres ou groupes de lettres empruntés aux<br />
                       mots connus.
-                    </td>
+          </h4>
 
-                  </tr>
+          <div className="items-center flex flex-wrap bg-gray-100">
 
-                </tbody>
-              </table>
-            </div>
-            <div className="block w-full overflow-x-auto">
-              {/* Projects table */}
-              <table className="items-center w-full bg-transparent border-collapse">
-                <thead>
-                  <tr>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      L’enseignant observe que l’enfant commence à réussir ou réussit<br />
-                      régulièrement à…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Contexte, circonstances,<br />
-                      dispositifs, activités…
-                    </th>
-                    <th className="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-1 border-r-1whitespace-nowrap font-semibold text-left">
-                      Pour les<br />
-                      apprentissages<br />
-                      suivants…
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th className="border-t-1 border border-solid  px-6 align-left border-l-1 border-r-1text-xs p-4 text-left">
-                      • produire un tracé avec une intention ;<br />
+            <ul className="list-none mt-6">
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                  • produire un tracé avec une intention ;<br />
                       • prendre des repères dans l’espace<br />
                       feuille ;<br />
                       • gérerl’espace graphique (aller de gauche<br />
@@ -1606,9 +1970,41 @@ export default function Index() {
                       • encoder un mot en prenant appui sur<br />
                       la syllabe et le phonème : FOTO pour<br />
                       écrire « photo » ; LIVER pour l’hiver.<br />
-                    </th>
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Ecriture :
+
+                  </div>
+                </div>
+              </li>
+
+
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div>
+                    <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                      <i className="far fa-square"></i>
+                    </span>
+                  </div>
+                  <div className="text-blueGray-500">
+
+                  Contrôler, guider et maîtriser les<br />
+                      gestes moteurs mobilisés dans le<br />
+                      dessin et l’écriture<br />
+                      S’entraîner avant de pratiquer<br />
+                      l’écriture cursive : des exercices<br />
+                      graphiques.<br />
+                      <br />
+                      Découvrir le principe alphabétique<br />
+                      tout en s’initiant à la maîtrise<br />
+                      motrice du tracé de mots et de<br />
+                      lettres<br />
+                      S’essayer à l’écriture de mots.<br />
+                      </div>
+                </div>
+              </li>
+
+              <li className="py-2">
+                <div className="flex items-center">
+                  <div><i><b>Context:</b>     Ecriture :
                       • du prénom, du nom de famille<br />
                       • d’un mot collectif simple, court,<br />
                       se référant à un vécu commun<br />
@@ -1636,52 +2032,24 @@ export default function Index() {
                       mot pour lequel ils éprouvent de<br />
                       l’intérêt alors qu’ils n’ont pas le<br />
                       modèle sous les yeux (écritures<br />
-                      spontanées).
-                    </td>
+                      spontanées).</i>
+                  </div>
+                </div>
+              </li>
 
-
-                    <td className="border-t-1 border border-solid  px-6 align-middle border-l-1 border-r-1text-xs whitespace-nowrap p-4">
-                      Contrôler, guider et maîtriser les<br />
-                      gestes moteurs mobilisés dans le<br />
-                      dessin et l’écriture<br />
-                      S’entraîner avant de pratiquer<br />
-                      l’écriture cursive : des exercices<br />
-                      graphiques.<br />
-                      <br />
-                      Découvrir le principe alphabétique<br />
-                      tout en s’initiant à la maîtrise<br />
-                      motrice du tracé de mots et de<br />
-                      lettres<br />
-                      S’essayer à l’écriture de mots.<br />
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+            </ul>
 
 
           </div>
 
+         
         </div>
+      </section> 
 
-      </section>
       <br />
-            <br />
-            <br />
-            <br />
+      <br />
+      <br />
+      <br />
 
       <Footer />
     </>

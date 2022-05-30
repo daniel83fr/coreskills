@@ -5,13 +5,14 @@ import Link from "next/link";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
+
 export default function Index() {
   return (
     <>
       <IndexNavbar fixed />
 
 
-      <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
+      <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100 ">
         <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
           style={{ transform: "translateZ(0)" }}
